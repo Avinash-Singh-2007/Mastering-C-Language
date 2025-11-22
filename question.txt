@@ -1,0 +1,162 @@
+## Basic Print Patterns and Input/Output
+
+1. Patterns: Print right half pyramid, reverse right half pyramid, left half pyramid using print statements.
+2. Patterns (Single Statement): Print all above patterns using a single statement.
+3. Input/Output: Input a name and respond with "Welcome NAME to KG Coding".
+4. Variable Declaration: Declare two integer variables, assign values, and display them.
+5. Data Types & Size: Declare int, float, double, char variables and show their sizes using sizeof().
+6. Variable Naming: Define variables for first name, last name, age using proper naming conventions, and display them.
+7. Square Area: Input side length, calculate and print area of square.
+8. Circle Circumference: Use a constant for pi (3.14159); input radius and print circumference.
+9. Circle Area: Input radius and print area of circle.
+10. Swap Numbers: Create a program to swap two numbers.
+
+***
+
+## Operators, Expressions, Decision and Control Structures
+
+11. Arithmetic Operators: Take two numbers, show results for +, -, *, /, %.
+12. Type Conversion: Convert an int to float and print both.
+13. Product: Calculate product of two float numbers.
+14. Rectangle Perimeter: Calculate and print perimeter of a rectangle.
+15. Triangle Area: Calculate and print area of a triangle.
+16. Simple Interest: Calculate simple interest using (P x T x R)/100.
+17. Compound Interest: Calculate compound interest P(1 + R/100)^t.
+18. Temperature: Convert Fahrenheit to Celsius.
+19. If Statement: Determine if a number is positive, negative, or zero.
+20. Even/Odd: Determine if a number is odd or even.
+21. Max of Three: Determine the greatest of three numbers.
+22. Leap Year: Check if a year is leap (divisible by 4 but not 100, unless also 400).
+23. Grading: Categorize marks as A (>90%), B (>75%), C (30%), F (60).
+25. Ternary-Min: Use ternary operator to find maximum of two numbers.
+26. Ternary-Even/Odd: Use ternary operator for even/odd.
+27. Ternary-Absolute: Use ternary operator to get absolute value of an int.
+28. Ternary-Score Category: Categorize score as High (>80), Moderate (50–80), Low (<50) using ternary operator.
+29. Switch Month: Print month based on 1–12 input.
+30. Simple Calculator: Create a switch-based calculator for +, -, *, /.
+
+***
+
+## Loops and Iteration
+
+31. Multiplication Table: Print multiplication table for a given number.
+32. Odd Sum: Sum all odd numbers from 1 to N.
+33. Factorial: Write a function to compute factorial of a number.
+34. Digit Sum: Compute and print sum of digits of integer.
+35. LCM: Find Least Common Multiple (LCM) of two numbers.
+36. GCD: Find Greatest Common Divisor (GCD) of two numbers.
+37. Prime Using While: Check if a given number is prime using while loop.
+38. Reverse Number: Reverse the digits of a number.
+39. Fibonacci: Print Fibonacci series up to a given number.
+40. Armstrong Number: Check if a number is an Armstrong number.
+41. Palindrome Number: Verify if a number is palindrome.
+42. Patterns (Again): Print right half, reverse right half, and left half pyramid.
+
+***
+
+## Advanced Loop Control
+
+43. Positive Number: Use do-while to prompt until user enters a positive number.
+44. Sum Until Zero: Continuously add user-input numbers until 0 is entered; then print sum.
+45. Multiplication Table (for loop): Use for-loop for multiplication table.
+46. Prime (for loop): Display if a number is prime using for-loop.
+47. Continue (Sum Skip Negative): Sum user positives, skip negatives.
+48. Continue (Even Numbers): Print even numbers, skip odd.
+49. Infinite Loop with Break: Read and square user integers until special number (like -1) is entered.
+
+***
+
+## Functions and Recursion
+
+50. greet(): Write function greet() that prints "Hello, World!"
+51. sum4(): Function taking 4 ints, return their sum.
+52. square(): Function that takes int, returns its square.
+53. print_date(): Function without params, prints current date.
+54. max(): Function with two floats, returns larger value.
+55. increment(): Show with increment() that original integer does not change after increment.
+56. get_average(): Function takes five ints, returns average.
+57. Recursive Fibonacci: Program using recursion for Fibonacci till N.
+58. Recursive Palindrome: Program using recursion to check if a number is palindrome.
+
+***
+
+## Pointers & Storage Classes
+
+59. Int Pointer Value: Declare int and pointer, assign value, print using pointer.
+60. Change Value by Pointer: Change value of variable via pointer and * operator.
+61. Char Pointer I/O: Declare pointer to char, read and print character from user.
+62. minmax() with Pointers: void minmax(int *a, int *b, int *min, int *max) assigns min, max using call by reference; test with main.
+
+***
+
+## Storage Classes & Data Types
+
+63. Long Conversion: Convert big kilometers value to miles, use long/long long.
+64. Long/Long Long Range: Calculate factorial of 20 and show range difference.
+65. Unsigned Overflow: Set unsigned int to max, int to negative, add 1; show unsigned wraps to 0.
+
+***
+
+## Arrays & Strings
+
+66. Array Sum/Average: Find sum and average of array elements.
+67. Array Occurrences: Find number of occurrences of an element in array.
+68. Array Max/Min: Find maximum and minimum in array.
+69. Array Sorted: Check if array is sorted.
+70. Delete from Array: Return new array after deleting an element.
+71. Array Reverse: Reverse the array.
+72. Array Palindrome: Check if array is palindrome.
+73. Copy Char Array: Use pointer arithmetic to copy char array.
+74. Merge Sorted Arrays: Merge two sorted arrays.
+75. Search 2-D Array: Search an element in a 2-D array.
+76. Sum/Average 2-D Array: Sum and average of 2-D array elements.
+77. 2-D Array Diagonal Sum: Find sum of two diagonal elements.
+
+***
+
+## String Manipulation
+
+78. fgets & puts: Read line of text via fgets, then print via puts.
+79. Print Formatted Date: Use printf with specifiers to print formatted date.
+80. Uppercase: Convert input string to uppercase.
+81. Login System: Text-based login system, compare password string using strcmp.
+82. Tic-Tac-Toe: Store and display tic-tac-toe board using 2-D char array.
+83. Reverse String: Function to reverse string in place.
+84. Trim String: Remove leading, trailing spaces from string.
+85. String Palindrome: Check if string is a palindrome.
+86. Password Checker (do-while): Repeat check until valid password entered.
+87. Loop Break Keyword: Input loop, break if keyword (like "exit") entered.
+
+***
+
+## Structures
+
+88. Book Structure Use: Program showing why structure for Book (title, author, price) is better than separate variables.
+89. Array of Books: Initialize array of Book structures with designated initializers.
+90. Car Structure: Define Car struct with make, model, year, color.
+91. Car Description: Pass Car struct to function, print description sentence.
+92. Student Pointer Function: Accept pointer to Student (id, name, year, gpa), modify grades.
+93. Nested Structures: Student has books-borrowed inside; show nested structure use.
+
+***
+
+## Dynamic Memory Allocation
+
+94. Car Structure Allocation: Dynamically allocate memory for Car structure, then free.
+95. malloc for Float Array: Use malloc for float array according to user specified size, store numbers.
+96. calloc for Sentence: Use calloc to allocate char array for sentence, zero-init memory.
+97. Point Structure Allocation: Allocate memory for struct Point (x, y), set values, free.
+98. Shrink Array with realloc: Fill calloc array with randoms, shrink size by half using realloc, print result.
+
+***
+
+## File I/O
+
+99. File Open Report: Ask user for filename, try to open, report success/failure.
+100. Read Integers from File: Read integers from file; calculate sum.
+101. File Copy: Copy content from one file to another until EOF.
+102. Write User Input to File: Each user entry saved to new line in file.
+103. Append Log File: Append user input to the end of a log file each run.
+104. Read/Write data.txt: Perform both reading and writing on a file called data.txt.
+
+***
