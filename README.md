@@ -1,1 +1,169 @@
 # Mastering-C-Language
+
+
+## **📍CHAPTER 1 — Basic Print Patterns and Input/Output**
+
+1. Patterns: Print right half pyramid, reverse right half pyramid, left half pyramid using print statements.
+2. Patterns (Single Statement): Print all above patterns using a single statement.
+3. Input a name and respond with **"Welcome NAME to KG Coding"**.
+4. Declare two integer variables, assign values, and display them.
+5. Declare int, float, double, char variables — show their sizes using `sizeof()`.
+6. Variable naming: first name, last name, age — display them.
+7. Input side length — print area of square.
+8. Use constant pi=3.14159 — input radius & print circumference.
+9. Input radius — print area of circle.
+10. Swap two numbers.
+
+---
+
+## **📍CHAPTER 2 — Operators, Expressions & Decision Making**
+
+11. Take two numbers — show +, −, ×, ÷, % results.
+12. Convert int → float and print both.
+13. Product of two float numbers.
+14. Perimeter of rectangle.
+15. Area of triangle.
+16. Simple interest — `(P × T × R)/100`.
+17. Compound interest — `P(1 + R/100)^t`.
+18. Convert Fahrenheit → Celsius.
+19. Check if number is +, − or zero.
+20. Find odd or even number.
+21. Max of three numbers.
+22. Check Leap Year rule.
+23. Grading: A (>90), B (>75), C (>60), D (>30), F (<=30).
+24. (Skipped in your list — reserved if needed later)
+25. Ternary operator — maximum of two numbers.
+26. Ternary — even/odd.
+27. Ternary — absolute value.
+28. Ternary — score category:
+
+* High > 80
+* Moderate 50–80
+* Low < 50
+
+29. Switch month number to month name (1–12).
+30. Switch-based calculator (+, −, ×, ÷).
+
+---
+
+## **📍CHAPTER 3 — Loops and Iteration**
+
+31. Multiplication table for a number.
+32. Sum of all odd numbers from 1 to N.
+33. Find factorial using function.
+34. Sum of digits of number.
+35. Find LCM of two numbers.
+36. Find GCD of two numbers.
+37. Check prime using **while loop**.
+38. Reverse the digits of a number.
+39. Print Fibonacci series up to N.
+40. Check Armstrong number.
+41. Check Palindrome number.
+42. Print: right half, reverse right half & left half pyramids.
+
+---
+
+## **📍CHAPTER 4 — Advanced Loop Control**
+
+43. Use do-while: continue until positive number entered.
+44. Sum input numbers until 0 — print total.
+45. For loop — multiplication table.
+46. Prime check using for-loop.
+47. Sum only positive numbers — skip negative (continue).
+48. Print even numbers — skip odd.
+49. Infinite loop — break on input -1; print square of numbers.
+
+---
+
+## **📍CHAPTER 5 — Functions and Recursion**
+
+50. `greet()` — print "Hello, World!".
+51. `sum4()` — sum 4 integers.
+52. `square()` — return square of int.
+53. `print_date()` — prints current date.
+54. `max()` — two floats — return larger.
+55. `increment()` — show argument does not change original.
+56. `get_average()` — return avg of five integers.
+57. Recursion — Fibonacci till N.
+58. Recursion — Palindrome check.
+
+---
+
+## **📍CHAPTER 6 — Pointers**
+
+59. Declare int & pointer, print value using pointer.
+60. Modify value using pointer dereferencing.
+61. Pointer to char — read & print char.
+62. `minmax()` using pointers — return min & max via call-by-reference.
+
+---
+
+## **📍CHAPTER 7 — Storage Classes & Data Types**
+
+63. Convert long kilometers to miles.
+64. Factorial of 20 — show long vs long long range difference.
+65. Show unsigned overflow behavior.
+
+---
+
+## **📍CHAPTER 8 — Arrays & Strings**
+
+66. Sum & average of array.
+67. Count number of occurrences of an element.
+68. Find maximum & minimum element.
+69. Check if array is sorted.
+70. Delete element from array.
+71. Reverse array.
+72. Check if array is palindrome.
+73. Copy char array using pointer.
+74. Merge two sorted arrays.
+75. Search in 2-D array.
+76. Sum & average of 2-D array.
+77. Sum of 2-D diagonal elements.
+
+---
+
+## **📍CHAPTER 9 — String Manipulation**
+
+78. Read string using fgets, print using puts.
+79. Print formatted date using printf specifiers.
+80. Convert string to uppercase.
+81. Login system using `strcmp()`.
+82. Tic-Tac-Toe board using 2-D char array.
+83. Reverse string in place.
+84. Trim leading & trailing spaces.
+85. String palindrome check.
+86. Password validation until correct (do-while).
+87. Take input repeatedly — break on keyword “exit”.
+
+---
+
+## **📍CHAPTER 10 — Structures & User-Defined Data Types**
+
+88. Book structure — advantage vs separate variables.
+89. Array of Book structures with initializer list.
+90. Define `struct Car`.
+91. Print car description using function.
+92. Pointer to Student struct → modify values.
+93. Nested structure — Student with issued books.
+
+---
+
+## **📍CHAPTER 11 — Dynamic Memory Allocation & File I/O**
+
+### **A) DMA**
+
+94. Dynamically allocate struct Car — free memory.
+95. `malloc` float array — user size — input numbers.
+96. `calloc` char array — store a sentence.
+97. `malloc` struct Point — assign x, y — free memory.
+98. Shrink array using `realloc` — print result.
+
+### **B) File Handling**
+
+99. Ask user for filename — open — success/failure message.
+100. Read integer file — compute sum.
+101. Copy content of file to another.
+102. Write user input — each on new line.
+103. Append logs to file each run.
+104. Perform read & write on `data.txt`.
