@@ -40,6 +40,7 @@ int main(){
     else{
         printf("%d not found in the array",target);
     }
-    
+
+    free(arr);    
     return 0;
 }

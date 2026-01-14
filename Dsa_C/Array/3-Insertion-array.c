@@ -49,6 +49,8 @@ int main(){
     
     printf("Array after insertion: ");
     print_array(arr,size+1);
+
+    free(arr);
     
     return 0;
 }
