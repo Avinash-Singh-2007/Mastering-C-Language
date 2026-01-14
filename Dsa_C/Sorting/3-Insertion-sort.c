@@ -1,4 +1,4 @@
-//Insertion sort - isme left me ek element orted samajte h and right sorted se ek ek eleemt sahi position pr insert
+//Insertion sort - isme left me ek element sorted samajte h and right sorted se ek ek element sahi position pr insert
 
 #include <stdio.h>
 #include <stdlib.h>
